@@ -228,7 +228,7 @@ defaults:
       read_time: false
       share: false
       comments: false
-      related: true
+      related: false
       toc: false
       toc_sticky: true
       show_date: false
