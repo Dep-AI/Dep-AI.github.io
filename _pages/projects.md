@@ -5,4 +5,5 @@ layout: category
 taxonomy: projects
 author_profile: true
 entries_layout: grid
+classes: wide
 ---

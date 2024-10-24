@@ -1,5 +1,10 @@
 # main links
 main:
-
+  - title: "Структура"
+    url: /structure
+  - title: "Учеба"
+    url: /study
+  - title: "Наука"
+    url: /science
   - title: "Проекты"
     url: /projects

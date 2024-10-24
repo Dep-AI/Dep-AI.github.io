@@ -1,0 +1,52 @@
+---
+title: "Структура кафедры"
+permalink: /structure/
+layout: single
+<!-- classes: wide -->
+# taxonomy: projects
+# author_profile: true
+# entries_layout: grid
+
+
+management:
+
+  - image_path: https://koroteev.site/assets/images/avatar5.jpg
+    title: "Коротеев Михаил Викторович"
+    excerpt: "Заведующий кафедрой"
+    url: "mailto:MVKoroteev@fa.ru"
+    btn_label: "Написать"
+    btn_class: "btn--primary"
+
+  - image_path: http://www.fa.ru/org/chair/findata/PublishingImages/Malekova.jpg
+    title: "Малекова Виктория Алексеевна"
+    excerpt: "Заместитель заведующего по учебной и учебно-методической работе"
+    url: "mailto:VAMAlekova@fa.ru"
+    btn_label: "Написать"
+    btn_class: "btn--primary"
+
+  - image_path: https://bakalavriat.fa.ru/upload/iblock/1f6/1f6240db2aee35c01c90257c77b09d39.jpg
+    title: "Романова Екатерина Владимировна"
+    excerpt: "Заместитель заведующего по научной работе"
+    url: "mailto:EVRomanovaa@fa.ru"
+    btn_label: "Написать"
+    btn_class: "btn--primary"
+---
+
+
+<h2>Руководство кафедры</h2>
+{% include  feature_row id="management" %}
+<br>
+
+
+
+      <section id="{{ tag[0] | slugify | downcase }}" class="taxonomy__section">
+        <h2>Подразделения кафедры</h2>
+        <div class="entries-grid">
+          {% for post in site.categories.section %}
+            {% include archive-single.html type="grid" %}
+          {% endfor %}
+        </div>
+      </section>
+
+
+<br>
