@@ -1,15 +1,42 @@
 # Authors
-Vadim Marchenko:
+Marchenko:
   name             : "Вадим Марченко"
   avatar           : "/assets/images/favicon-256.png"
   bio              : "Лаборатория анализа данных"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:billyrick@rick.com"
+      url: "mailto:vemarchenko@fa.ru"
     - label: "Telegram"
       icon: "fab fa-brands fa-telegram"
-      url: "https://t.me/bayesianinference"      
+      url: "https://t.me/bayesianinference"
+
+Koroteev:
+  name             : "Михаил Коротеев"
+  avatar           : "https://koroteev.site/assets/images/avatar3.jpg"
+  bio              : "Заведующий кафедрой ИИ"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:mvkoroteev@fa.ru"   
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      # url: "https://koroteev.site"
+      url: "https://koroteev.site"
+
+Mironov:
+  name             : "Владимир Миронов"
+  avatar           : "/assets/images/authors/mironov.png"
+  bio              : "Старший преподаватель"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:vomironov@fa.ru"
+
+Andriyanov:
+  name             : "Никита Андриянов"
+  avatar           : "/assets/images/authors/andriyanov.jpeg"
+  bio              : "Старший преподаватель"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:vomironov@fa.ru"

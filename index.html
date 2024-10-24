@@ -45,3 +45,18 @@ entries_layout: grid
 <br>
 
 
+
+      <section id="{{ tag[0] | slugify | downcase }}" class="taxonomy__section">
+        <h2>Подразделения кафедры</h2>
+        <div class="entries-grid">
+          {% for post in site.categories.section %}
+            {% include archive-single.html type="grid" %}
+          {% endfor %}
+        </div>
+        <a href="#page-title" class="back-to-top">Наверх &uarr;</a>
+      </section>
+
+
+<br>
+
+
