@@ -40,3 +40,12 @@ Andriyanov:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:vomironov@fa.ru"
+
+Kochkarov:
+  name             : "Расул Ахматович Кочкаров"
+  avatar           : "/assets/images/authors/kochkarov.jpg"
+  bio              : "Заместитель декана по науке"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:rakochkarov@fa.ru"
