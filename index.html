@@ -60,3 +60,18 @@ entries_layout: grid
 <br>
 
 
+
+      <section id="{{ tag[0] | slugify | downcase }}" class="taxonomy__section">
+        <h2>Последние новости</h2>
+        <div class="entries">
+          {% for post in site.categories.news limit:5 %}
+            {% include archive-single.html%}
+          {% endfor %}
+        </div>
+        <a href="/news" class="back-to-top">Все новости &uarr;</a>
+      </section>
+
+
+<br>
+
+
